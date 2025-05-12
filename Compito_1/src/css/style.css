@@ -1,33 +1,59 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  background-color: #f5f5f5;
+div#header-container h1 {
+  background-color: rgb(1, 1, 107);
+  color: yellow;
+  text-shadow: 3px 3px 3px #e5e5e5ff;
+  text-align: center;
+  margin: 0;
+  min-height: 250px;
+  line-height: 250px;
+  font-size: 40px;
+  padding: 16px;
+  width: 100%;
 }
 
-main {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
-}
-
-.card {
+main.main {
   background-color: white;
-  border: 1px solid #ccc;
+}
+
+div.intro {
+  background-color: orange;
+  border: 3px solid black;
+  border-radius: 8px;
+  width: 100%;
+  padding: 16px;
+  margin: 20px 0px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.pianeti-card {
+  background-color: white;
+  border: 5px solid black;
   border-radius: 8px;
   width: 30%;
-  padding: 16px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  margin: 20px 20px;
+  display: inline-block;
 }
 
-h1 {
+div.pianeti_title {
+  font-size: 20px;
+  text-align: center;
+  color: #333;
+  border-bottom: solid 2px black;
+  margin: 5px;
+}
+
+div.pianeti_description {
+  font-size: 16px;
   text-align: center;
   color: #333;
 }
 
-footer {
-  margin-top: 40px;
+div.pianeti_footer {
+  margin: 0px;
   text-align: center;
-  font-size: 0.9em;
-  color: #777;
+  font-size: 20px;
+  border-top: solid 2px black;
+  color: blue;
 }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>I pianeti del sistema solare</title>
+  </head>
+
+  <body>
+    <h1>Benvenuto nel sistema solare</h1>
+    <main>
+      <div class="card">
+        <h2>Mercurio</h2>
+        <p>Il pianeta più vicino al Sole, roccioso e senza atmosfera</p>
+      </div>
+
+      <div class="card">
+        <h2>Venere</h2>
+        <p>Un pianeta roccioso con un'atmosfera densa e caldissima.</p>
+      </div>
+
+      <div class="card">
+        <h2>Terra</h2>
+        <p>L'unico pianeta conosciuto con vita, ricco di acqua e ossigeno.</p>
+      </div>
+
+      <div class="card">
+        <h2>Marte</h2>
+        <p>Conosciuto come il pianeta rosso, ha una superficie desertica.</p>
+      </div>
+
+      <div class="card">
+        <h2>Giove</h2>
+        <p>Il pianeta più grande, famoso per la sua Grande Macchia Rossa.</p>
+      </div>
+
+      <div class="card">
+        <h2>Saturno</h2>
+        <p>Conosciuto per i suoi spettacolari anelli di ghiaccio e polvere.</p>
+      </div>
+
+      <div class="card">
+        <h2>Urano</h2>
+        <p>
+          Un gigante gassoso con un'inclinazione unica e un colore blu-verde.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Nettuno</h2>
+        <p>Un pianeta blu intenso, famoso per i suoi venti fortissimi.</p>
+      </div>
+    </main>
+    <footer>Created by Fabrizio</footer>
+  </body>
+</html>
